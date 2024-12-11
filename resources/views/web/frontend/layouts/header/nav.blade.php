@@ -27,7 +27,7 @@
                     <a class="nav-link" href="#testimonial">{{__('site.shared.Testimonials')}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#plans">{{__('site.shared.Projects')}}</a>
+                    <a class="nav-link" href="#plans">{{__('site.shared.Plans')}}</a>
                 </li>
                 <li class="nav-item rounded-5 mx-4" style="width: 40px; height: 40px;">
                     <div class="lang">
