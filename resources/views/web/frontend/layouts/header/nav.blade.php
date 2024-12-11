@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="Marshmallow"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -28,8 +29,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#plans">Plans</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-success" href="#contact">174-394-9560</a>
+                <li class="nav-item rounded-5 mx-4" style="width: 40px; height: 40px;">
+                    <div class="lang">
+                        <a
+                            href="{{ LaravelLocalization::getLocalizedURL(app()->getLocale() === 'en' ? 'ar' : 'en', null, [], true) }}">
+                            <img src="{{ app()->getLocale() === 'en' ? asset('frontend/images/us.svg') : asset('frontend/images/eg.svg') }}"
+                                alt="lang">
+                        </a>
+                    </div>
                 </li>
             </ul>
         </div>

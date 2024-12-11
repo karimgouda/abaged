@@ -5,7 +5,8 @@
 			loop: true,
 			stagePadding: 100,
 			margin: 20,
-			nav: false,
+            nav: false,
+            rtl:true,
 			responsive: {
 				0: {
 					items: 2
