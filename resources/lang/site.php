@@ -17,11 +17,9 @@ return
         'About Us'              => 'About Us',
         'Services'              => 'Services',
         'Contact Us'            => 'Contact Us',
-        'ocoda'                 => 'ocoda',
-        'read more'             => 'read more',
-        'privacy_&_policy'      => 'privacy_&_policy',
-        'terms_&_conditions'    => 'terms_&_conditions',
-        'who we are'            => 'who we are',
+        'Projects'              => 'Projects',
+        'Testimonials'          => 'Testimonials',
+        'Plans'                 => 'Plans',
     ],
 
     /**
