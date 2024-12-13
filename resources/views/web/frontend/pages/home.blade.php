@@ -65,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6" data-aos="fade-up">
-                    <h5 class="text-dark">{{__('pages.Our work process')}}</h5>
+{{--                    <h5 class="text-dark">{{__('pages.Our work process')}}</h5>--}}
                     <h3 class="font-weight-medium text-dark">{{$goal->title}}</h3>
                     <p class="font-weight-medium mb-4">
                         {{$goal->description}}
