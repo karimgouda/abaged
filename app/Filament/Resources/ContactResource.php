@@ -51,13 +51,17 @@ class ContactResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('id')->sortable()->searchable(),
-                TextColumn::make('name')->limit(50)->searchable(),
+                TextColumn::make('fname')->limit(50)->searchable(),
+                TextColumn::make('lname')->limit(50)->searchable(),
+                TextColumn::make('age')->limit(50)->searchable(),
+                TextColumn::make('gender')->limit(50)->searchable(),
                 TextColumn::make('email')->limit(50)->searchable(),
                 TextColumn::make('phone')->limit(50)->searchable(),
+                TextColumn::make('course')->limit(50)->searchable(),
+                TextColumn::make('whatsapp')->limit(50)->searchable(),
+                TextColumn::make('telegram')->limit(50)->searchable(),
                 TextColumn::make('message')->limit(50)->searchable(),
                 TextColumn::make('created_at')
-                    ->dateTime(),
-                TextColumn::make('updated_at')
                     ->dateTime(),
             ])
             ->defaultSort('id', 'desc')

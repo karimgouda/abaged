@@ -37,7 +37,7 @@
             </g>
         </svg>
     </a>
-
+    @livewireScripts
 </body>
 
 </html>
