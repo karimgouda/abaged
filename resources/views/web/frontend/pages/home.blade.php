@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="page-body-wrapper">
-    <section id="home" class="home">
+    <section id="home" class="home" style="background-color: #3C37F1;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -16,10 +16,14 @@
                                         {{$features->title}}
                                     </h3>
                                 </div>
-                                <p class="mt-3">
+                                <p @class(app()->getLocale() === 'en' ? 'text-left':'text-right')>
                                     {{str()->limit($features->description)}}
                                 </p>
-                                <a href="#contact" class="btn btn-secondary mt-3">{{__('pages.Learn more')}}</a>
+                                <div class="d-flex align-items-center justify-content-start ">
+                                    <a href="#contact" class="btn btn-secondary mt-3" @class(app()->getLocale() === 'en'
+                                        ?
+                                        'text-left':'text-right')>{{__('pages.Learn more')}}</a>
+                                </div>
                             </div>
                             <div class="mt-5 mt-lg-0">
                                 <img src="{{asset('storage/'.$features->image)}}" alt="marsmello" class="img-fluid"
@@ -64,8 +68,9 @@
     <section class="our-process" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6" data-aos="fade-up">
-{{--                    <h5 class="text-dark">{{__('pages.Our work process')}}</h5>--}}
+                <div @class(app()->getLocale() === 'en' ? 'text-left col-sm-6':'text-right col-sm-6') class="col-sm-6"
+                    data-aos="fade-up">
+                    {{-- <h5 class="text-dark">{{__('pages.Our work process')}}</h5>--}}
                     <h3 class="font-weight-medium text-dark">{{$goal->title}}</h3>
                     <p class="font-weight-medium mb-4">
                         {{$goal->description}}
