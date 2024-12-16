@@ -1,6 +1,7 @@
-<nav class="navbar navbar-expand-lg fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top" style="padding-block: 0rem;">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="{{public_storage(settings('site_logo'))}}"  height="100"></a>
+        <a class="navbar-brand" href="#"><img src="{{public_storage(settings('site_logo'))}}" width="50" height="100"
+                style="width: 100px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
@@ -12,7 +13,8 @@
             </div>
             <ul class="navbar-nav ml-auto align-items-center">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#home">{{__('site.shared.Home')}} <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home">{{__('site.shared.Home')}} <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#services">{{__('site.shared.Services')}}</a>

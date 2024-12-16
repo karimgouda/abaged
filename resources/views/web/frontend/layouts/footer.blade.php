@@ -7,11 +7,11 @@
                         <p class="mb-4">{{settings('address_'.app()->getLocale())}}</p>
                         <div class="align-items-center">
                             @foreach(settings('phones') as $phone)
-                                <p class="mr-4 mb-0">{{$phone}}</p><br>
+                            <p class="mr-4 mb-0">{{$phone}}</p><br>
                             @endforeach
 
                             @foreach(settings('emails') as $email)
-                                <a href="mailto:{{$email}}" class="footer-link ">{{$email}}</a><br>
+                            <a href="mailto:{{$email}}" class="footer-link ">{{$email}}</a><br>
                             @endforeach
                         </div>
                     </address>
@@ -56,8 +56,11 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex align-items-center">
-                    <img src="{{public_storage(settings('site_logo'))}}" width="50" height="80" alt="logo" class="mr-3"></br>
-                    <p class="mb-0 text-small pt-1">© Developed By <a href="https://www.linkedin.com/in/karim-gouda-087928242/" class="text-white" target="_blank">Karim Gouda</a></p>
+                    <img src="{{public_storage(settings('site_logo'))}}" width="100" height="200" alt="logo"
+                        class="mr-3" style="width: 200px;"></br>
+                    <p class="mb-0 text-small pt-1">© Developed By <a
+                            href="https://www.linkedin.com/in/karim-gouda-087928242/" class="text-white"
+                            target="_blank">Karim Gouda</a></p>
 
                 </div>
             </div>
