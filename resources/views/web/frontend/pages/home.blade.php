@@ -92,70 +92,71 @@
         </div>
     </section>
 
-    <section class="our-projects" id="projects">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-sm-12">
-                    <div class="d-sm-flex justify-content-between align-items-center mb-2">
-                        <h3 class="font-weight-medium text-dark ">{{__("pages.Let's See Our Latest Project")}}</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="mb-5" data-aos="fade-up">
-            <div class="owl-carousel-projects owl-carousel owl-theme">
-                @foreach($partners as $partner)
-                <div class="item">
-                    <img src="{{asset('storage/'.$partner->image)}}" alt="slider">
-                </div>
-                @endforeach
-            </div>
-        </div>
-        <div class="container">
-            <div class="row pt-5 mt-5 pb-5 mb-5">
-                <div class="col-sm-3">
-                    <div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">
-                        <img src="{{asset('frontend')}}/images/satisfied-client.svg" alt="satisfied-client"
-                            class="mr-3">
-                        <div>
-                            <h4 class="font-weight-bold text-dark mb-0"><span class="">{{$skills->title}}</span>%</h4>
-                            <h5 class="text-dark mb-0">{{__('pages.Satisfied clients')}}</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">
-                        <img src="{{asset('frontend')}}/images/finished-project.svg" alt="satisfied-client"
-                            class="mr-3">
-                        <div>
-                            <h4 class="font-weight-bold text-dark mb-0"><span class="">{{$skills->sub_title}}</span>
-                            </h4>
-                            <h5 class="text-dark mb-0">{{__('pages.Finished Project')}}</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">
-                        <img src="{{asset('frontend')}}/images/team-members.svg" alt="Team Members" class="mr-3">
-                        <div>
-                            <h4 class="font-weight-bold text-dark mb-0"><span class="">{{$skills->description}}</span>
-                            </h4>
-                            <h5 class="text-dark mb-0">{{__('pages.Team Members')}}</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">
-                        <img src="{{asset('frontend')}}/images/team-members.svg" alt="Our Blog Posts" class="mr-3">
-                        <div>
-                            <h4 class="font-weight-bold text-dark mb-0"><span class="">{{$skills->icon}}</span></h4>
-                            <h5 class="text-dark mb-0">{{__('pages.Student Count')}}</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <section class="our-projects" id="projects">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row mb-5">--}}
+{{--                <div class="col-sm-12">--}}
+{{--                    <div class="d-sm-flex justify-content-between align-items-center mb-2">--}}
+{{--                        <h3 class="font-weight-medium text-dark ">{{__("pages.Let's See Our Latest Project")}}</h3>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="mb-5" data-aos="fade-up">--}}
+{{--            <div class="owl-carousel-projects owl-carousel owl-theme">--}}
+{{--                @foreach($partners as $partner)--}}
+{{--                <div class="item">--}}
+{{--                    <img src="{{asset('storage/'.$partner->image)}}" alt="slider">--}}
+{{--                </div>--}}
+{{--                @endforeach--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="container">--}}
+{{--            <div class="row pt-5 mt-5 pb-5 mb-5">--}}
+{{--                <div class="col-sm-3">--}}
+{{--                    <div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">--}}
+{{--                        <img src="{{asset('frontend')}}/images/satisfied-client.svg" alt="satisfied-client"--}}
+{{--                            class="mr-3">--}}
+{{--                        <div>--}}
+{{--                            <h4 class="font-weight-bold text-dark mb-0"><span class="">{{$skills->title}}</span>%</h4>--}}
+{{--                            <h5 class="text-dark mb-0">{{__('pages.Satisfied clients')}}</h5>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-3">--}}
+{{--                    <div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">--}}
+{{--                        <img src="{{asset('frontend')}}/images/finished-project.svg" alt="satisfied-client"--}}
+{{--                            class="mr-3">--}}
+{{--                        <div>--}}
+{{--                            <h4 class="font-weight-bold text-dark mb-0"><span class="">{{$skills->sub_title}}</span>--}}
+{{--                            </h4>--}}
+{{--                            <h5 class="text-dark mb-0">{{__('pages.Finished Project')}}</h5>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-3">--}}
+{{--                    <div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">--}}
+{{--                        <img src="{{asset('frontend')}}/images/team-members.svg" alt="Team Members" class="mr-3">--}}
+{{--                        <div>--}}
+{{--                            <h4 class="font-weight-bold text-dark mb-0"><span class="">{{$skills->description}}</span>--}}
+{{--                            </h4>--}}
+{{--                            <h5 class="text-dark mb-0">{{__('pages.Team Members')}}</h5>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-3">--}}
+{{--                    <div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">--}}
+{{--                        <img src="{{asset('frontend')}}/images/team-members.svg" alt="Our Blog Posts" class="mr-3">--}}
+{{--                        <div>--}}
+{{--                            <h4 class="font-weight-bold text-dark mb-0"><span class="">{{$skills->icon}}</span></h4>--}}
+{{--                            <h5 class="text-dark mb-0">{{__('pages.Student Count')}}</h5>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+
     <section class="testimonial" id="testimonial">
         <div class="container">
             <div class="row  mt-md-0 mt-lg-4">
@@ -197,11 +198,11 @@
         <div class="container">
             <div class="row" data-aos="fade-up" data-aos-offset="-500">
                 <div class="col-sm-12">
-                    <div class="d-sm-flex justify-content-between align-items-center mb-2">
-                        <div>
-                            <h3 class="font-weight-medium text-dark ">{{__('pages.Checkout Pricing Plan')}}</h3>
-                        </div>
-                    </div>
+{{--                    <div class="d-sm-flex justify-content-between align-items-center mb-2">--}}
+{{--                        <div>--}}
+{{--                            <h3 class="font-weight-medium text-dark ">{{__('pages.Checkout Pricing Plan')}}</h3>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
             <div class="row" data-aos="fade-up" data-aos-offset="-300">
