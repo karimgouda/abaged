@@ -22,9 +22,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#about">{{__('site.shared.About Us')}}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">{{__('site.shared.Projects')}}</a>
-                </li>
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="#projects">{{__('site.shared.Projects')}}</a>--}}
+{{--                </li>--}}
                 <li class="nav-item">
                     <a class="nav-link" href="#testimonial">{{__('site.shared.Testimonials')}}</a>
                 </li>
