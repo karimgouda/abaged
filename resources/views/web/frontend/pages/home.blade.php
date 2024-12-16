@@ -13,8 +13,11 @@
                             <div data-aos="zoom-in-up">
                                 <div class="banner-title">
                                     <h3 class="font-weight-medium">
+                                        <span style="color: #f59e0b">
                                         {{$features->title}}
+                                        </span>
                                     </h3>
+                                    <br>
                                 </div>
                                 <p @class(app()->getLocale() === 'en' ? 'text-left':'text-right')>
                                     {{str()->limit($features->description)}}
