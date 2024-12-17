@@ -17,7 +17,7 @@
                                     </h1>
                                 </div>
                                 <p class="{{ app()->getLocale() === 'en' ? 'text-left' : 'text-right' }}">
-                                    {{ str()->limit($features->description, 150) }}
+                                    {{ $features->description }}
                                 </p>
                                 <div class="d-flex align-items-center justify-content-start mt-3">
                                     <a href="#contact" class="btn btn-secondary"
