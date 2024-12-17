@@ -11,11 +11,10 @@
                     <div class="main-banner">
                         <div class="d-sm-flex justify-content-between align-items-center">
                             <div data-aos="zoom-in-up" class="w-md-50 text-sm-left">
-                                <div class="banner-title w-75">
-                                    <h1 class="italic" style="font-style: italic;">
+                                <div class="banner-title w-100">
+                                    <h1 class="italic" style="font-style: italic; margin-bottom: 16px;">
                                         {{$features->title}}
                                     </h1>
-                                    <br>
                                 </div>
                                 <p class="{{ app()->getLocale() === 'en' ? 'text-left' : 'text-right' }}">
                                     {{ str()->limit($features->description, 150) }}
