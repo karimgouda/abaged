@@ -21,7 +21,7 @@ Route::middleware('maintenance')->group(function () {
 
             Route::as('site.')->controller(MainController::class)->group(function () {
                 Route::get('/home', 'home')->name('home');
-                Route::get('/offer-details', 'offer_details')->name('offer-details');
+                Route::get('/offer-details/{course}', 'offer_details')->name('offer-details');
                 Route::get('/about', 'about')->name('about');
                 Route::get('/services', 'services')->name('services');
                 Route::get('/contact', 'contact')->name('contact');

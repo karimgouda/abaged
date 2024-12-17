@@ -61,20 +61,9 @@ class MainController extends Controller
 
 
 
-    public function offer_details()
+    public function offer_details(Characteristic $course)
     {
-        $banner             = Banner::where('page_type', 'home')->first();
-        $features           = Feature::first();
-        $characteristics    = Characteristic::get();
-        $goal               = Goal::first();
-        $quality            = Quality::first();
-        $builds              = Build::get();
-        $skills             = Skill::first();
-        $homeCategories     = HomeCategory::limit(3)->get();
-        $partners           = Partner::get();
-        $discuss            = Discuss::first();
-        $workers            = Worker::get();
-        return view('web.frontend.pages.offer-details', compact('banner'));
+        return view('web.frontend.pages.offer-details',compact('course'));
     }
 
 
