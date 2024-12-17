@@ -35,5 +35,6 @@ return [
     'Conversation Arabic'=>'Conversation Arabic',
     'Arabic language Camp In Egypt'=>'Arabic language Camp In Egypt',
     'Message'=>'Message',
-    'SEND'=>'SEND'
+    'SEND'=>'SEND',
+    'Country'=>'Country'
 ];

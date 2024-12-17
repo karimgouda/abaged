@@ -59,7 +59,7 @@
 
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" wire:model="telegram" id="mail" placeholder="{{__('pages.Telegram')}}*">
+                                <input type="text" class="form-control" wire:model="telegram" id="mail" placeholder="{{__('pages.Country')}}*">
                                 @error('telegram') <span class="text-danger">{{ $message }}</span> @enderror
                             </div>
                         </div>
