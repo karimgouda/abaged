@@ -20,7 +20,7 @@
 
 
     <a class="whatsapp_icon_container position-fixed" style="top: 90%;
-    left: 2%;" href="https://wa.me/+" target="_blank">
+    left: 2%;" href="https://wa.me/{{settings('whatsapp')}}" target="_blank">
         <svg fill="#04D765" height="46px" width="46px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
