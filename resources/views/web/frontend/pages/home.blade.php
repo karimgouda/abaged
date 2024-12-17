@@ -59,7 +59,7 @@
                                         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;"
                                         data-aos="zoom-in">
                                 </div>
-                                <a href="">
+                                <a href="{{route('site.offer-details',$course)}}">
                                     <h6 class="text-dark mb-3 mt-4 font-weight-medium">
                                         {{$course->title}}
                                     </h6>
