@@ -19,8 +19,18 @@
     {!! settings('body_manager_script') !!}
 
 
-    <a class="whatsapp_icon_container position-fixed" style="top: 90%;
-    left: 2%;" href="https://wa.me/{{settings('whatsapp')}}" target="_blank">
+    <!-- Telegram Icon -->
+    <a class="telegram_icon_container  position-fixed" style="top: 80%; left: 2%;" href="https://t.me/yourusername"
+        target="_blank" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <svg fill="#3C37F1" height="46px" width="46px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+            <path
+                d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.6 153.8c-3.4 36.6-18 121-24 151.2-3 14.3-8.4 19-14 19.6-11.8 1.1-20.8-7.8-32.2-15.3-17.9-11.6-28.1-18.8-45.4-30.1-20.1-13.2-7.1-20.4 4.4-32.3 3-3.1 54.9-50.3 56-54.6.1-.5.1-2.2-.8-3.1-.9-1-2.4-1.3-3.4-1.5-1.5-.3-2.9-.3-4.4 0-1.5.3-23.8 15.1-67.2 44.4-6.4 4.4-12.2 6.5-17.4 6.5-5.6 0-16.3-3.1-24.3-5.7-9.8-3.2-17.6-4.9-16.9-10.3.4-3.1 4.7-6.3 13-10 43.6-19.3 72.8-32.4 87.7-39.5 41.8-19.8 50.4-23.3 56.1-23.4 1.2 0 3.8.3 5.6 1.8 1.4 1.2 1.8 2.9 1.9 3.9.1 1 .4 3.7.2 7z" />
+        </svg>
+    </a>
+
+    <!-- WhatsApp Icon -->
+    <a class="whatsapp_icon_container position-fixed" style="top: 90%; left: 2%;" href="https://wa.me/+" target="_blank"
+        data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <svg fill="#04D765" height="46px" width="46px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -33,10 +43,12 @@
                     <path id="XMLID_470_"
                         d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z">
                     </path>
+
                 </g>
             </g>
         </svg>
     </a>
+
     @livewireScripts
 </body>
 
