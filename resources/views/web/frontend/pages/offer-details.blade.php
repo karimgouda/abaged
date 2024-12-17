@@ -5,7 +5,7 @@
 @section('content')
 <section>
     <div class="page-body-wrapper">
-        <div class="container my-5">
+        <div class="container my-5 m-auto">
             <div style="max-width: 700px; top: -80px;" class="mx-auto text-secondary">
                 <h1 class="font-weight-bold text-dark text-center m-3" style="font-style: italic">{{$course->title}}</h1>
                 <div class="my-3 d-flex align-items-center justify-content-between">
