@@ -11,7 +11,7 @@
                 <div class="my-3 d-flex align-items-center justify-content-between">
                 </div>
             </div>
-            <img class="w-75 my-3"
+            <img class="w-75 my-3 text-center"
                 src="{{ asset('storage/'.$course->icon) }}" />
 
             <div style="max-width: 700px; top: -80px;" class="mx-auto text-secondary">
