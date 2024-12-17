@@ -11,8 +11,8 @@
                 <div class="my-3 d-flex align-items-center justify-content-between">
                 </div>
             </div>
-            <img class="w-100 my-3"
-                src="https://api.time.com/wp-content/uploads/2020/07/never-trumpers-2020-election-01.jpg?quality=85&w=1201&h=676&crop=1" />
+            <img class="w-75 my-3"
+                src="{{ asset('storage/'.$course->icon) }}" />
 
             <div style="max-width: 700px; top: -80px;" class="mx-auto text-secondary">
                 <p class="my-2" style="line-height: 2;">
