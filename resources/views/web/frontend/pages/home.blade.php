@@ -12,9 +12,9 @@
                         <div class="d-sm-flex justify-content-between align-items-center">
                             <div data-aos="zoom-in-up" class="w-md-50 text-sm-left">
                                 <div class="banner-title w-75">
-                                    <h3 class="font-weight-large fs-2">
+                                    <h1 class="italic" style="font-style: italic;">
                                         {{$features->title}}
-                                    </h3>
+                                    </h1>
                                     <br>
                                 </div>
                                 <p class="{{ app()->getLocale() === 'en' ? 'text-left' : 'text-right' }}">
