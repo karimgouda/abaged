@@ -7,15 +7,13 @@
     <section id="home" class="home" style="background-color: #3C37F1;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 mt-5">
                     <div class="main-banner">
                         <div class="d-sm-flex justify-content-between align-items-center">
-                            <div data-aos="zoom-in-up" class="text-center text-sm-left">
+                            <div data-aos="zoom-in-up" class="w-md-50 text-sm-left">
                                 <div class="banner-title w-75">
-                                    <h3 class="font-weight-medium">
-                                        <span style="color: #f59e0b">
-                                            {{$features->title}}
-                                        </span>
+                                    <h3 class="font-weight-large fs-2">
+                                        {{$features->title}}
                                     </h3>
                                     <br>
                                 </div>
@@ -29,14 +27,13 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="mt-5 mt-lg-0">
+                            <div class="mt-5 w-50 mt-lg-0">
                                 <img src="{{ asset('storage/'.$features->image) }}" alt="marsmello" class="img-fluid"
                                     data-aos="zoom-in-up">
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -57,8 +54,8 @@
                             <div class="card-body">
                                 <div class="image-container"
                                     style="position: relative; width: 100%; padding-top: 100%; overflow: hidden;">
-                                    <img src="https://abjed.online/storage/P1IcxLiAtPZlrFsV1FrhDnxK8x37aX-metacGhvdG9fMjAyNC0xMi0xNV8xMS00Ny0zOC5qcGc=-.jpg"
-                                        alt="integrated-marketing" class="img-fluid"
+                                    <img src="{{ asset('storage/'.$course->icon) }}" alt="integrated-marketing"
+                                        class="img-fluid"
                                         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;"
                                         data-aos="zoom-in">
                                 </div>
