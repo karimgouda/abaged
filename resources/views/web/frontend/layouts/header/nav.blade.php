@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top" style="padding-block: 0rem;">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="{{public_storage(settings('site_logo'))}}" width="50" height="100"
-                style="width: 100px;"></a>
+        <a class="navbar-brand" href="#"><img src="{{public_storage(settings('site_logo'))}}" width="50" height="150"
+                style="width: 150px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
@@ -22,9 +22,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#about">{{__('site.shared.About Us')}}</a>
                 </li>
-{{--                <li class="nav-item">--}}
-{{--                    <a class="nav-link" href="#projects">{{__('site.shared.Projects')}}</a>--}}
-{{--                </li>--}}
+                {{-- <li class="nav-item">--}}
+                {{-- <a class="nav-link" href="#projects">{{__('site.shared.Projects')}}</a>--}}
+                {{-- </li>--}}
                 <li class="nav-item">
                     <a class="nav-link" href="#testimonial">{{__('site.shared.Testimonials')}}</a>
                 </li>
