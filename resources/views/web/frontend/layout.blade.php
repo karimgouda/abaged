@@ -21,7 +21,7 @@
 
     <!-- Telegram Icon -->
     <a class="telegram_icon_container  position-fixed bg-primary" style="top: 80%; left: 2%; border-radius: 50%;"
-        href="{{settings('telegram')}}" target="_blank" data-aos="fade-down" data-aos-easing="linear"
+        href="tg://openchat?chat_id={{settings('telegram')}}" target="_blank" data-aos="fade-down" data-aos-easing="linear"
         data-aos-duration="1500">
         <svg fill="white" height="55px" width="55px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
             <path
